@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: blue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* APP: */
+
+
+
+/* APP */
+
+
+
+
+
+/* NAV: */
+
+.nav-main-div{
+  float: left;
+  background-color: white;
+  height: 100vh;
+  border-right: 2px;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.2);
+}
+.nav-logo{
+  width: 100px;
+  height: 40px;
+  background-image: url(../src/assests/icons/Hospicare\ logo.png);
+  background-size: 80%;
+  margin-left: -15px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* NAV */
+
+
+
+
+
+
+
+/* DASHBOARD: */
+
+.dash-main-div{
+  float: left;
+  background-color: white;
+  width: 92.2%;
+  height: 105vh;
+}
+.dash-left-col{
+  width: 71.8%;
+  height: 95%;
+  background-color: magenta;
+  float: left;
+  padding: 20px;
+
+}
+.dash-right-col{
+  width: 25%;
+  height: 100%;
+  background-color: yellow;
+  float: right;
+}
+
+/* DASHBOARD */
+
