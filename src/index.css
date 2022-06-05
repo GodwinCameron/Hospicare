@@ -95,18 +95,15 @@ code {
 /* DASHBOARD: */
 
 .dash-main-div{
-  background-color: rgb(223, 125, 125);
   height: 100vh;
 }
 .dash-left-col{
   width: 70%;
   height: 100%;
   padding: 40px;
-  background-color: magenta;
   float: left;
 }
   .dash-appointments-summary{
-    background-color: cyan;
     height: 350px;
     padding: 20px;
     overflow: scroll;
@@ -119,7 +116,6 @@ code {
   }
   .dash-breakdown{
     text-align: center;
-    background-color: orange;
     margin-left: 20px;
   }
   .chart{
@@ -136,12 +132,12 @@ code {
     background-color: rgb(136, 255, 0);
   }
   .dash-schedule-week{
-    background-color: brown;
+    background-color: rgb(17, 255, 0);
     width: 50%;
     height: 270px;
   }
   .dash-schedule-month{
-    background-color: green;
+    background-color: rgb(17, 255, 0);
     width: 50%;
     height: 270px;
     margin-left: -20px;
@@ -152,17 +148,27 @@ code {
 .dash-left-col h4{
   margin-top: 30px;
 }
-.dash-right-col{
+.dash-right-col-background{
   width: 30%;
   height: 100%;
-  background-color: yellow;
+  background-image: url(../src/assests/pictures/background.png);
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
   float: right;
+}
+.dash-right-col{
+  width: 100%;
+  padding-top: 5%;
+  height: 102.5%;
+  background-color: rgba(0,0,0,0.2);
+  backdrop-filter: blur(1px);
+  margin-top: -20px;
 }
   .dash-menu-icon-holder{
     width: 100%;
     height: 40px;
     margin-top: 20px;
-    background-color: rgb(255, 0, 76);
   }
   .dash-profile-pic{
     margin: auto;
@@ -178,7 +184,6 @@ code {
   .dash-icons{
     width: 40px;
     height: 40px;
-    background-color: purple;
     border-radius: 50%;
     background-size: 100%;
     background-position: center;
