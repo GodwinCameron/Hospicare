@@ -31,15 +31,12 @@ const Dash = () => {
                 </Row>
             </div> {/*Left Col end*/}
 
-
-            <div className="dash-right-col-background">
-                <div className="dash-right-col">
-                    <div className="dash-menu-icon-holder">
-                        <div className="dash-icons dash-to-profile-menu-icon"></div>
-                        <div className="dash-icons dash-settings-icon"></div>
-                    </div>
-                    <div className="dash-profile-pic"></div>
+            <div className="dash-right-col">
+                <div className="dash-menu-icon-holder">
+                    <div className="dash-icons dash-to-profile-menu-icon"></div>
+                    <div className="dash-icons dash-settings-icon"></div>
                 </div>
+                <div className="dash-profile-pic"></div>
             </div> {/*Right Col end*/}
         </Col>
     </>)
