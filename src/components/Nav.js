@@ -12,6 +12,7 @@ const Nav = () => {
                 <div className="nav-item nav-cal" id="navCalIcon"></div>
                 <div className="nav-item nav-appoint" id="navppointIcon"></div>
             </Col>
+import { Col } from "react-bootstrap";
     </>)
 }
 
