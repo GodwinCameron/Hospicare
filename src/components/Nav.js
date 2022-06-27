@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import Dash from "./Dash";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Nav = () => {
     return (<>

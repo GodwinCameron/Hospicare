@@ -43,7 +43,7 @@ code {
   height: 40px;
   background-image: url(../src/assests/icons/Hospicare\ logo.png);
   background-size: 80%;
-  margin-left: -15px;
+  margin-left: 5px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -79,6 +79,10 @@ code {
   background-image: url(../src/assests/icons/Calendar\ Icon.png);
   background-size: 25%;
 }
+.nav-appoint{
+  background-image: url(../src/assests/icons/Group\ 5.png);
+  background-size: 25%;
+}
 .test{
   background-color: red;
   height: 100vh;
@@ -106,24 +110,22 @@ code {
   width: 70%;
   height: 100%;
   padding: 40px;
-  background-color: magenta;
   float: left;
 }
   .dash-appointments-summary{
-    background-color: cyan;
     height: 350px;
     padding: 20px;
     overflow: scroll;
   }
   .dash-appointment-summary-item{
-    background-color: rgb(0, 55, 255);
+    background-color: rgb(125, 220, 31);
     width: 100%;
     height: 100px;
     margin-bottom: 10px;
+    border-radius: 5px;
   }
   .dash-breakdown{
     text-align: center;
-    background-color: orange;
     margin-left: 20px;
   }
   .chart{
@@ -140,12 +142,12 @@ code {
     background-color: rgb(136, 255, 0);
   }
   .dash-schedule-week{
-    background-color: brown;
+    background-color: rgb(17, 255, 0);
     width: 50%;
     height: 270px;
   }
   .dash-schedule-month{
-    background-color: green;
+    background-color: rgb(17, 255, 0);
     width: 50%;
     height: 270px;
     margin-left: -20px;
@@ -156,17 +158,25 @@ code {
 .dash-left-col h4{
   margin-top: 30px;
 }
+.dash-right-col-background{
+  padding: 20px;
+  background-image: url(../src/assests/pictures/background.png);
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .dash-right-col{
-  width: 30%;
-  height: 100%;
-  background-color: yellow;
-  float: right;
+  width: 100%;
+  padding-top: 5%;
+  height: 102.5%;
+  background-color: rgba(0,0,0,0.2);
+  backdrop-filter: blur(1px);
+  margin-top: -20px;
 }
   .dash-menu-icon-holder{
     width: 100%;
     height: 40px;
     margin-top: 20px;
-    background-color: rgb(255, 0, 76);
   }
   .dash-profile-pic{
     margin: auto;
@@ -182,7 +192,6 @@ code {
   .dash-icons{
     width: 40px;
     height: 40px;
-    background-color: purple;
     border-radius: 50%;
     background-size: 100%;
     background-position: center;
@@ -202,3 +211,126 @@ code {
 /* DASHBOARD */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dash-appointment-time{
+  text-align: center;
+}
+
+.dash-appointment-summary-item-add{
+  background-color: rgb(243, 243, 242);
+  background-image: url(../src/assests/icons/Group\ 6.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.dash-appointment-summary-item-add:hover{
+  filter: invert(40%);
+  cursor: pointer;
+}
+.delete-icon{
+  width: 90%;
+  height: 90%;
+  background-image: url(../src/assests/icons/Group\ 7.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: center;
+}
+.delete-icon:hover{
+  filter: invert(60%);
+  cursor: pointer;
+  margin: auto;
+}
+
+
+.hospi-logo{
+  margin-top: 50px;
+  width: 100%;
+  height: 120px;
+  background-image: url(../src/assests/icons/Hospicare.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.login-form{
+  padding-top: 80px;
+  margin-top: 10px;
+  background-color: rgba(127, 251, 3, 0.769);
+  height: 50vh;
+  border-radius: 7px;
+  box-shadow: 2px 2px 7px rgba(0,0,0,0.2);
+}
+.login-username{
+  width: 70%;
+  height: 35px;
+  border-radius: 9px;
+  border-style:groove;
+  border-width: 1px;
+  margin-top: 40px;
+  margin-left: 17%;
+  padding: 10px;
+}
+.login-username:focus{
+  outline: none;
+  border-color: rgb(8, 197, 255);
+  border-width: 2px;
+}
+.login-password{
+  width: 70%;
+  height: 35px;
+  border-radius: 9px;
+  border-style:groove;
+  border-width: 1px;
+  margin-top: 40px;
+  margin-left: 17%;
+  padding: 10px;
+}
+.login-password:focus{
+  outline: none;
+  border-color: rgb(8, 197, 255);
+  border-width: 2px;
+}
+.login-button{
+  margin-left: 45%;
+  margin-top: 40px;
+  width: 80px;
+  height: 40px;
+  border-radius: 9px;
+  border-style: solid;
+  border-color: rgb(101, 101, 101);
+  border-width: 1px;
+  background-color: rgb(0, 255, 34);
+}
+.login-button:active{
+  background-color: rgb(1, 186, 26);
+
+}
+
+.welcome{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 15px;
+  margin-top: -30px;
+  color: white;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+}

@@ -1,0 +1,1 @@
+INSERT INTO `doctors` (`id`, `name`, `surname`, `age`, `spec`, `username`, `password`, `room`) VALUES (NULL, 'test', 'test', '30', 'test', 'test', 'test', '1');
