@@ -2,6 +2,7 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import DashAppointSumItem from "./DashAppointmentSumItem";
+import TestComponent from "./TestComponent/TestComponent";
 
 const Dash = () => {
     return (<>
