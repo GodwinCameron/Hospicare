@@ -1,0 +1,145 @@
+$TerminalBlue: rgb(8, 17, 27);
+$CyberRed: rgb(247, 43, 43);
+$CyberGlow: 3px 3px 9px rgb(247, 43, 43);
+$CyberGlowBox: 0px 0px 15px 0px rgb(247, 43, 43);
+$CyberRedFill: rgb(250, 84, 84);
+$CyerBorder: solid 3px rgb(250, 84, 84);
+
+@import url('https://fonts.googleapis.com/css?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+
+body {
+    background-color: $TerminalBlue;
+    font-family: 'Silkscreen';
+    // font-family: 'Maven Pro';
+    // font-family: 'Bebas Neue';
+    // font-family: 'Source Code Pro';
+}
+
+.logo {
+    height: 40px;
+    width: 80px;
+    margin-left: 2vw;
+    background-image: url('../assests/icons/TT-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5px;
+}
+
+.navSpacer {
+    display: flex;
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    padding: 2vh;
+    flex-direction: column;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text1 {
+    font-family: 'Source Code Pro';
+}
+
+.text1 {
+    font-family: 'Courier Prime';
+}
+
+.hud {
+    display: flex;
+    padding: 2vh;
+    flex-direction: column;
+}
+
+.backGlow {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.15), rgba(255, 0, 0, 0));
+}
+
+.detailTop {
+    height: 60px;
+    width: 120px;
+    background-image: url('../assests/icons/detail1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    margin-left: 45vw;
+    margin-top: -20px;
+}
+
+.detailLeft {
+    height: 60px;
+    width: 120px;
+    background-image: url('../assests/icons/detail1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    margin-top: 45vh;
+    margin-left: -4vw;
+    transform: rotate(90deg);
+}
+
+.detailRight {
+    height: 60px;
+    width: 120px;
+    background-image: url('../assests/icons/detail1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    margin-top: 45vh;
+    margin-left: 93vw;
+    transform: rotate(90deg);
+}
+
+.detailBottom {
+    height: 40px;
+    width: 300px;
+    background-image: url('../assests/icons/detail2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    margin-top: 93vh;
+    margin-left: 39vw;
+}
+
+.detailCenter {
+    height: 80px;
+    width: 80px;
+    background-image: url('../assests/icons/detail3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    margin-top: 45vh;
+    margin-left: 46vw;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBox {
+    display: flex;
+    flex-direction: row;
+    padding-right: 2vw;
+}

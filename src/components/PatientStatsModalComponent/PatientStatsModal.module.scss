@@ -1,0 +1,194 @@
+@import "../../Styling/styles.scss";
+
+.main {
+    display: flex;
+    flex: 1;
+    height: 75vh;
+    border: $CyerBorder;
+    box-shadow: $CyberGlowBox;
+    flex-direction: column;
+}
+
+.headerContent {
+    display: flex;
+    height: 30vh;
+    padding: 20px;
+    flex-direction: row;
+    color: $CyberRedFill;
+    text-shadow: $CyberGlow;
+}
+
+.profileCharacter {
+    display: flex;
+    height: 27vh;
+    flex: 2;
+    flex-direction: row;
+
+    .border {
+        width: 200px;
+        height: 200px;
+        border: $CyerBorder;
+        border-radius: 6px;
+        box-shadow: $CyberGlowBox;
+        padding: 10px;
+
+        .profileIcon {
+            width: 175px;
+            height: 175px;
+            border: $CyerBorder;
+            border-radius: 6px;
+            box-shadow: $CyberGlowBox;
+            background-image: url('../../assests/pictures/profileIconPlaceholder.png');
+        }
+    }
+
+    .qrTag {
+        height: 70px;
+        width: 70px;
+        margin-left: 10px;
+        background-image: url('../../assests/pictures/qr.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.headerStats {
+    display: flex;
+    height: 27vh;
+    flex: 4;
+    flex-direction: column;
+    line-height: 1.5vh;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.patientValue {
+    padding-left: 20px;
+    display: flex;
+    height: 27vh;
+    flex: 1.5;
+    flex-direction: column;
+
+    .patientStatus {
+        display: flex;
+        width: 100%;
+        height: 45px;
+        background-color: $TerminalBlue;
+        box-shadow: $CyberGlowBox;
+        align-items: center;
+        border: $CyerBorder;
+        border-width: 2px;
+        border-radius: 2px;
+        color: $CyberRedFill;
+        margin-bottom: 10px;
+    
+        h6 {
+            margin-top: 8px;
+            font-size: 12px;
+            margin-left: 20px;
+        }
+    
+        .statusDetail {
+            display: flex;
+            height: 100%;
+            width: 25px;
+            background-color: $CyberRedFill;
+            box-shadow: $CyberGlowBox;
+            margin-left: -35px;
+        }
+    }
+
+    .clientValue {
+        width: 100%;
+        height: 45px;
+        background-color: $TerminalBlue;
+        border: $CyerBorder;
+        border-width: 2px;
+        box-shadow: $CyberGlowBox;
+        text-align: center;
+        padding-top: 8px;
+        text-decoration: underline;
+    }
+
+    .value {
+        margin-top: 10px;
+        background-color: $CyberRedFill;
+        color: $TerminalBlue;
+        width: 60%;
+        height: 45px;
+        box-shadow: $CyberGlowBox;
+        border: $CyerBorder;
+        border-width: 2px;
+        text-align: center;
+        padding-top: 8px;
+        margin-right: 10px;
+    }
+}
+
+.actions {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+    .divider {
+        background-color: $CyberRedFill;
+        width: 95%;
+        height: 3px;
+        box-shadow: $CyberGlowBox;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        .left {
+            flex: 2;
+            height: 40vh;
+            padding-right: 10px;
+            
+            .actionItem{
+                border: $CyerBorder;
+                box-shadow: $CyberGlowBox;
+                height: 60px;
+                width: 100%;
+                color: $CyberRedFill;
+                margin-bottom: 22px;
+
+                &:hover{
+                    background-color: $CyberRedFill;
+                    color: $TerminalBlue;
+                }
+            }
+        }
+        .right {
+            flex-direction: column;
+            flex: 1;
+            height: 40vh;
+            color: $CyberRedFill;
+            text-shadow: $CyberGlow;
+            padding-left: 5px;
+
+            .barcode{
+                background-image: url('../../assests/pictures/barcode.png');
+                width: 55%;
+                height: 40px;
+                margin-top: -10px;
+            }
+
+            .xray{
+                border: $CyerBorder;
+                box-shadow: $CyberGlowBox;
+                height: 29vh;
+                width: 100%;
+                background-image: url('../../assests/pictures/xray.png');
+
+                .bpm{
+                    float: right;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

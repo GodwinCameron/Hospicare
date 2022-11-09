@@ -1,0 +1,16 @@
+@import "../../Styling/styles.scss";
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: green;
+
+    .footerSpacer{
+        flex: 1;
+    }
+
+    .footerLogo{
+
+    }
+}
